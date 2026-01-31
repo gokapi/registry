@@ -9,7 +9,7 @@
       "install_type": "bridge",
       "platform": "",
       "checksum": "9fbe0c7144a35918df9cc3f001cc6ad454c450fab40d28f387404c259dc65262",
-      "download_url": "https://github.com/gokapi/java-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.47.0.tar.gz",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -281,7 +281,7 @@
       "install_type": "bridge",
       "platform": "",
       "checksum": "5aa22f63bd2fafa93fe0fb66c9eedbf75b740b57832532f52937afdda7bbb6c3",
-      "download_url": "https://github.com/gokapi/java-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.46.0.tar.gz",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.46.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
