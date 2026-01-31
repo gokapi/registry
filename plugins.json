@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "name": "okapi-bridge",
+      "version": "1.0.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.48.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "",
+      "download_url": "https://github.com/gokapi/java-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.48.0.tar.gz",
+      "min_host_version": "0.1.0"
+    },
+    {
+      "name": "okapi-bridge-1.47",
+      "version": "1.0.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.47.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "",
+      "download_url": "https://github.com/gokapi/java-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.47.0.tar.gz",
+      "min_host_version": "0.1.0"
+    },
+    {
+      "name": "okapi-bridge-1.46",
+      "version": "1.0.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.46.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "",
+      "download_url": "https://github.com/gokapi/java-bridge/releases/download/v1.0.0/okapi-bridge-v1.0.0-okapi1.46.0.tar.gz",
+      "min_host_version": "0.1.0"
+    }
+  ]
+}
