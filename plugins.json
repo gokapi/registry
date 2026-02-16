@@ -2,14 +2,14 @@
   "version": 1,
   "plugins": [
     {
-      "name": "okapi-bridge",
-      "version": "1.4.0",
-      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.47.0)",
+      "name": "okapi-bridge-0.38",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 0.38)",
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "3c7d3b6a1b25025c94f7d6392c8fe8bbf62678cc5977b20518469dd8e7e6d279",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.4.0/okapi-bridge-v1.4.0-okapi1.47.0.tar.gz",
+      "checksum": "a2ae8a2ef33db0a9fafb5670cef1646c32dd561a31cc31de2341a92fec77e5c5",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi0.38.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -435,14 +435,3478 @@
       ]
     },
     {
-      "name": "okapi-bridge-1.46",
-      "version": "1.4.0",
+      "name": "okapi-bridge-1.39.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.39.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "3ffcd1e6ff66f5d24bf1211c4d26b6e6d577e847c006ae5b3f9e5c4d384a5e82",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.39.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.40.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.40.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "df82ed4b5f406f3080d8f369c2bfc511d973c0f5a7a3cf48b2dbbece0615b2e6",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.40.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.41.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.41.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "4df592efc35421850dd47f42c1d000c4d5a67ef9884b1218f5b11dcc2dbaadcb",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.41.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.42.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.42.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "8eb7ffc806cb4921baa18f4b2dfedf9a68a106e8e0027b49c3c044733bdd45b9",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.42.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.43.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.43.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "778441353cfb326536e64a96965334970be3a544ce1b005748d68c0ba3afe811",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.43.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.44.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.44.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "fae80aa50b631e05aa70222f48a4a9e7ff875fd1b79d5062564f08c8ecc3ba9f",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.44.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.45.0",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.45.0)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "944601ada4df60e1311f3fd9aead57273b81fdd6c82b43e9499e6ced2adba726",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.45.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge-1.46.0",
+      "version": "1.5.0",
       "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.46.0)",
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b56043c6e809454350395ff5ec91b281993718165b03c700f006b5e82cca0bbd",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.4.0/okapi-bridge-v1.4.0-okapi1.46.0.tar.gz",
+      "checksum": "572582dcb66a54ab5186e1b36a098e90a0d192ece1b965d5abf6661587d6728a",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.46.0.tar.gz",
+      "min_host_version": "0.1.0",
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "Microsoft Office (OpenXML)",
+          "mime_types": [
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          "extensions": [
+            ".docx",
+            ".xlsx",
+            ".pptx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML",
+          "mime_types": [
+            "text/html"
+          ],
+          "extensions": [
+            ".html",
+            ".htm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML (ITS)",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Java Properties",
+          "extensions": [
+            ".properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO (Gettext)",
+          "mime_types": [
+            "text/x-po"
+          ],
+          "extensions": [
+            ".po",
+            ".pot"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive (ZIP)",
+          "mime_types": [
+            "application/zip"
+          ],
+          "extensions": [
+            ".zip",
+            ".jar"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "Auto-detect XLIFF version",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf",
+            ".xliff"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen"
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD",
+          "mime_types": [
+            "application/xml-dtd"
+          ],
+          "extensions": [
+            ".dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB",
+          "mime_types": [
+            "application/epub+zip"
+          ],
+          "extensions": [
+            ".epub"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "InCopy ICML",
+          "extensions": [
+            ".icml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "InDesign IDML",
+          "extensions": [
+            ".idml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "JSON",
+          "mime_types": [
+            "application/json"
+          ],
+          "extensions": [
+            ".json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown",
+          "mime_types": [
+            "text/markdown"
+          ],
+          "extensions": [
+            ".md",
+            ".markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "FrameMaker MIF",
+          "extensions": [
+            ".mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text"
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenDocument (ODF)",
+          "mime_types": [
+            "application/vnd.oasis.opendocument.text",
+            "application/vnd.oasis.opendocument.spreadsheet",
+            "application/vnd.oasis.opendocument.presentation"
+          ],
+          "extensions": [
+            ".odt",
+            ".ods",
+            ".odp"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF",
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM"
+        },
+        {
+          "type": "format",
+          "name": "php",
+          "display_name": "PHP Content",
+          "extensions": [
+            ".php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text",
+          "mime_types": [
+            "text/plain"
+          ],
+          "extensions": [
+            ".txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Kit"
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex"
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "RTF",
+          "mime_types": [
+            "application/rtf"
+          ],
+          "extensions": [
+            ".rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDL Package (SDLPPX)",
+          "extensions": [
+            ".sdlppx",
+            ".sdlrpx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "WebVTT Subtitles",
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table (CSV/TSV)",
+          "mime_types": [
+            "text/csv",
+            "text/tab-separated-values"
+          ],
+          "extensions": [
+            ".csv",
+            ".tsv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "LaTeX",
+          "mime_types": [
+            "application/x-latex"
+          ],
+          "extensions": [
+            ".tex",
+            ".latex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX",
+          "extensions": [
+            ".tmx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "Translation Table"
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex"
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS (Qt)",
+          "extensions": [
+            ".ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX (Trados Tag Exchange)",
+          "extensions": [
+            ".ttx"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML (WordFast)",
+          "extensions": [
+            ".txml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette"
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "MediaWiki",
+          "extensions": [
+            ".wiki"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF 2.x",
+          "mime_types": [
+            "application/xliff+xml"
+          ],
+          "extensions": [
+            ".xlf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream",
+          "mime_types": [
+            "text/xml",
+            "application/xml"
+          ],
+          "extensions": [
+            ".xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML",
+          "extensions": [
+            ".yml",
+            ".yaml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "ICU MessageFormat"
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI (Across)",
+          "extensions": [
+            ".xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxz",
+          "display_name": "WSXZ (WorldServer)",
+          "extensions": [
+            ".wsxz"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "cascading",
+          "display_name": "Cascading Filter"
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter"
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Subtitles",
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml",
+            ".xml"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "okapi-bridge",
+      "version": "1.5.0",
+      "description": "Okapi Framework bridge — 40+ document format filters (Okapi 1.47.0, latest)",
+      "plugin_type": "bridge",
+      "install_type": "bridge",
+      "platform": "",
+      "checksum": "88ed1ecbb366707a524f7f6501f19831f2fc56c8dc9013a6519f464b4e4c390e",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.5.0/okapi-bridge-v1.5.0-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
