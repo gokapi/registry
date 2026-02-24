@@ -8,10 +8,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "187b79d2b42b9604798c94922a73e312b474f6957e9f57fd687a6496f3de7e7a",
+      "checksum": "4c9435ea4f8f05e6ed2a7db2fe8058ceac2cc24ed41a8197267578306d6b471e",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi0.38.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.39.0",
@@ -20,10 +477,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "0fa12a10cfa599c4dad9e50b43b1702f0d1c712cfa0a826c61c281290fa77c6f",
+      "checksum": "123d7749d5547c0f3212be31e075ebf3774a48d7cecc4a046105b2731f0a2aa4",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.39.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.40.0",
@@ -32,10 +946,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b302fac5f4f8740e555b6a4db0f65831021704112d71ddec30c7ad39caff3374",
+      "checksum": "dd6056d8b0e1a300f1a4f8c502a4dfdb4bb3e64139e7d0a9fec7a1b16f9d62c1",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.40.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.41.0",
@@ -44,10 +1415,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "14420028159221efea8ec30da9482d8305c1d66f98e720ae327da940a1fc6f8f",
+      "checksum": "a2bb843fc7ee4bb135393678efd6964175e9adedc83d0509737bebf912b4d236",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.41.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.42.0",
@@ -56,10 +1884,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "da8763f9fe053a4862acbd1328678c56ee652d2c0ddd244977ffff9fa91e1a50",
+      "checksum": "9bab2de961ea3248635c15210c120798180a8c5b8fe93af1280e5f32b47ef2b2",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.42.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.43.0",
@@ -68,10 +2353,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "25fb0613e9207883667262d2285725670201582044891b1b18210bfe79ea699c",
+      "checksum": "6de392bf8ee36ec1671ae72e74ab5eb9930ced0f29d465575feafc3e69584732",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.43.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.44.0",
@@ -80,10 +2822,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "6d1ad2f9305e3995a371913c040cff5c509d84fcb4182144e158dd2d02fee9fb",
+      "checksum": "7cad4948a1b2a104cbc947e0a0aa1e22b760a89c7d0f20326069a8862fa9ad0d",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.44.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.45.0",
@@ -92,10 +3291,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "1bd6ed557c1b0df37527bc030919c7e484cf7764c4ff42b2e7b27225457f6938",
+      "checksum": "9ded7c6ea65085ac4b4d62f0f346034a4d6bb2e9c9cdf7da7e9709fb26a8a5c7",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.45.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.46.0",
@@ -104,10 +3760,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "92c2685b018836b32a3edbd772b83dcdc9c689aad77d684a7d9457aa0d98acde",
+      "checksum": "8a877b01c811299321d4d7207b76e74ed0d6e31d36b49c5db2dcafa5030b164c",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.46.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge-1.47.0",
@@ -116,10 +4229,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "7bb0f22af64799d4242c014bbbc823c4be7a4458f76a8e6cc8325d1948880384",
+      "checksum": "1df9d019b61b591e2d4a61b1223a460199a1d6bf225b7e5260fa529e9d7fa4cd",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     },
     {
       "name": "okapi-bridge",
@@ -128,10 +4698,467 @@
       "plugin_type": "bridge",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "75187b3595d343039b6a5a364286d95bf560795e35a61b03d81f05e78def74aa",
+      "checksum": "e4c70b30c2434e55275a323b54a7878594ff3d6ce132a2b611816841fd703e37",
       "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v1.6.0/okapi-bridge-v1.6.0-okapi1.48.0.tar.gz",
       "min_host_version": "0.1.0",
-      "capabilities": []
+      "capabilities": [
+        {
+          "type": "format",
+          "name": "archive",
+          "display_name": "Archive Filter",
+          "mime_types": [
+            "application/x-archive"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "autoxliff",
+          "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "doxygen",
+          "display_name": "Doxygen Filter",
+          "mime_types": [
+            "text/x-doxygen-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "dtd",
+          "display_name": "DTD Filter",
+          "mime_types": [
+            "application/xml+dtd"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "epub",
+          "display_name": "EPUB Filter",
+          "mime_types": [
+            "application/epub+zip"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html",
+          "display_name": "HTML/XHTML Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "icml",
+          "display_name": "ICML Filter",
+          "mime_types": [
+            "application/x-icml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "idml",
+          "display_name": "IDML Filter",
+          "mime_types": [
+            "application/vnd.adobe.indesign-idml-package"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "html5",
+          "display_name": "HTML5-ITS Filter",
+          "mime_types": [
+            "text/html"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "json",
+          "display_name": "Json Filter",
+          "mime_types": [
+            "application/json"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "markdown",
+          "display_name": "Markdown Filter",
+          "mime_types": [
+            "text/markdown"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "messageformat",
+          "display_name": "Message Format Filter",
+          "mime_types": [
+            "text/x-messageformat"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mif",
+          "display_name": "MIF Filter",
+          "mime_types": [
+            "application/vnd.mif"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "mosestext",
+          "display_name": "Moses Text Filter",
+          "mime_types": [
+            "text/x-mosestext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "multiparsers",
+          "display_name": "Multi-Parsers Filter",
+          "mime_types": [
+            "application/x-multiparsers"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "odf",
+          "display_name": "ODF-Content Filter",
+          "mime_types": [
+            "text/x-odf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openoffice",
+          "display_name": "OpenOffice.org Filter",
+          "mime_types": [
+            "application/x-openoffice"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "openxml",
+          "display_name": "OpenXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pdf",
+          "display_name": "PDF Filter",
+          "mime_types": [
+            "application/pdf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "pensieve",
+          "display_name": "Pensieve TM Filter",
+          "mime_types": [
+            "application/x-pensieve-tm"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "phpcontent",
+          "display_name": "PHP Content Filter",
+          "mime_types": [
+            "application/x-php"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "plaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "baseplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "paraplaintext",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regexplaintext",
+          "display_name": "okf_plaintext_regex",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "splicedlines",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/plain"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "po",
+          "display_name": "PO Filter",
+          "mime_types": [
+            "application/x-gettext"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "properties",
+          "display_name": "Properties Filter",
+          "mime_types": [
+            "text/x-properties"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rainbowkit",
+          "display_name": "Rainbow Translation Kit Filter",
+          "mime_types": [
+            "application/x-rainbowkit"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-v2 Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "regex",
+          "display_name": "Regex Filter",
+          "mime_types": [
+            "text/x-regex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "rtf",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "mime_types": [
+            "application/rtf"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "sdlpackage",
+          "display_name": "SDLPPX and SDLRPX Filter",
+          "mime_types": [
+            "application/x-sdlpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "table",
+          "display_name": "Table Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "basetable",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "commaseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "fixedwidthcolumns",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tabseparatedvalues",
+          "display_name": "Plain Text Filter",
+          "mime_types": [
+            "text/csv"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tex",
+          "display_name": "TEX Filter",
+          "mime_types": [
+            "text/x-tex-text"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "tmx",
+          "display_name": "TMX Filter",
+          "mime_types": [
+            "application/x-tmx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transifex",
+          "display_name": "Transifex Filter",
+          "mime_types": [
+            "application/x-transifex"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "transtable",
+          "display_name": "TransTable Filter",
+          "mime_types": [
+            "text/x-transtable"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ts",
+          "display_name": "TS Filter",
+          "mime_types": [
+            "application/x-ts"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttml",
+          "display_name": "TTML Filter",
+          "mime_types": [
+            "application/ttml+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "ttx",
+          "display_name": "TTX Filter",
+          "mime_types": [
+            "application/x-ttx+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "txml",
+          "display_name": "TXML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vignette",
+          "display_name": "Vignette Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "vtt",
+          "display_name": "VTT Filter",
+          "mime_types": [
+            "text/vtt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wiki",
+          "display_name": "Wiki Filter",
+          "mime_types": [
+            "text/x-wiki-txt"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "wsxzpackage",
+          "display_name": "WSXZ Filter",
+          "mime_types": [
+            "application/x-wsxzpackage"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xini",
+          "display_name": "XINI Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xinirainbowkit",
+          "display_name": "XINI RainbowKit Filter",
+          "mime_types": [
+            "text/x-xini"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff",
+          "display_name": "XLIFF Filter",
+          "mime_types": [
+            "application/x-xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xliff2",
+          "display_name": "XLIFF-2 Filter",
+          "mime_types": [
+            "application/xliff+xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xml",
+          "display_name": "XML Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "xmlstream",
+          "display_name": "XML Stream Filter",
+          "mime_types": [
+            "text/xml"
+          ]
+        },
+        {
+          "type": "format",
+          "name": "yaml",
+          "display_name": "YAML Filter",
+          "mime_types": [
+            "text/x-yaml"
+          ]
+        }
+      ]
     }
   ]
 }
