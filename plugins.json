@@ -3,13 +3,13 @@
   "plugins": [
     {
       "name": "okapi-bridge-0.38",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v0.38)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "14f0c355e5380fa08105778731661e28ed3ac05ac845e305066d6e83e62d12dc",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi0.38.tar.gz",
+      "checksum": "13581ef5c5b02b088a3ce4a4d1ed687e45d0ef3de571089cf652213477eb3fdf",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi0.38.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -17,6 +17,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -30,6 +34,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -45,6 +53,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -62,6 +74,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -75,6 +91,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -87,6 +107,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -101,6 +125,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -114,6 +142,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -126,6 +158,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -139,6 +175,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -151,6 +191,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -164,6 +208,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -173,6 +221,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -185,6 +237,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -197,6 +253,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -209,6 +269,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -218,6 +282,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -241,6 +309,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -268,6 +340,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -280,6 +356,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -292,6 +372,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -304,6 +388,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -316,6 +404,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -328,6 +420,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -337,6 +433,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -346,6 +446,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -355,6 +459,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -367,6 +475,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -380,6 +492,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -394,6 +510,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -406,6 +526,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -419,6 +543,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -431,6 +559,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -444,6 +576,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -456,6 +592,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -468,6 +608,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -480,6 +624,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -489,6 +637,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -498,6 +650,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -510,6 +666,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -522,6 +682,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -534,6 +698,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -543,6 +711,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -555,6 +727,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -567,6 +743,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -579,6 +759,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -591,6 +775,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -600,6 +788,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -613,6 +805,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -625,6 +821,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -637,6 +837,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -649,6 +853,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -658,6 +866,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -675,6 +887,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -690,6 +906,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -706,6 +926,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -719,6 +943,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -731,13 +959,13 @@
     },
     {
       "name": "okapi-bridge-1.39.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.39.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "2e9a04b67ddabfbb657ceff9eadd377d2e5912869bc12c4d0a20883a38d74d8a",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.39.0.tar.gz",
+      "checksum": "b0567f7ee0283a8f31081a97893f5efa7fbd0c4d455ea8d60058de7e5ff502f7",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.39.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -745,6 +973,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -758,6 +990,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -773,6 +1009,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -790,6 +1030,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -803,6 +1047,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -815,6 +1063,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -829,6 +1081,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -842,6 +1098,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -854,6 +1114,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -867,6 +1131,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -879,6 +1147,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -892,6 +1164,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -901,6 +1177,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -913,6 +1193,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -925,6 +1209,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -937,6 +1225,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -946,6 +1238,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -969,6 +1265,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -996,6 +1296,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -1008,6 +1312,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -1020,6 +1328,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -1032,6 +1344,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -1044,6 +1360,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -1056,6 +1376,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -1065,6 +1389,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -1074,6 +1402,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -1083,6 +1415,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -1095,6 +1431,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -1108,6 +1448,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -1122,6 +1466,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -1134,6 +1482,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -1147,6 +1499,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -1159,6 +1515,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -1172,6 +1532,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1184,6 +1548,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1196,6 +1564,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1208,6 +1580,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -1217,6 +1593,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -1226,6 +1606,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -1238,6 +1622,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -1250,6 +1638,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -1262,6 +1654,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -1271,6 +1667,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -1283,6 +1683,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -1295,6 +1699,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -1307,6 +1715,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -1319,6 +1731,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -1328,6 +1744,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -1341,6 +1761,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -1353,6 +1777,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -1365,6 +1793,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -1377,6 +1809,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -1386,6 +1822,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -1403,6 +1843,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -1418,6 +1862,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -1434,6 +1882,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -1447,6 +1899,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -1459,13 +1915,13 @@
     },
     {
       "name": "okapi-bridge-1.40.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.40.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "a4ac6424cc1d45de4b4b8904ddf1abdda017d501f15013bedd16412033648b13",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.40.0.tar.gz",
+      "checksum": "49cb3f7d94f8acfb69846ac1793f97f26c56309027c6169f8e48be7f9171bca3",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.40.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -1473,6 +1929,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -1486,6 +1946,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -1501,6 +1965,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -1518,6 +1986,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -1531,6 +2003,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -1543,6 +2019,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -1557,6 +2037,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -1570,6 +2054,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -1582,6 +2070,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -1595,6 +2087,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -1607,6 +2103,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -1620,6 +2120,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -1629,6 +2133,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -1641,6 +2149,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -1653,6 +2165,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1665,6 +2181,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -1674,6 +2194,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -1697,6 +2221,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -1724,6 +2252,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -1736,6 +2268,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -1748,6 +2284,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -1760,6 +2300,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -1772,6 +2316,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -1784,6 +2332,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -1793,6 +2345,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -1802,6 +2358,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -1811,6 +2371,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -1823,6 +2387,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -1836,6 +2404,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -1850,6 +2422,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -1862,6 +2438,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -1875,6 +2455,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -1887,6 +2471,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -1900,6 +2488,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1912,6 +2504,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1924,6 +2520,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -1936,6 +2536,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -1945,6 +2549,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -1954,6 +2562,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -1966,6 +2578,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -1978,6 +2594,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -1990,6 +2610,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -1999,6 +2623,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -2011,6 +2639,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -2023,6 +2655,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -2035,6 +2671,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2047,6 +2687,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -2056,6 +2700,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -2069,6 +2717,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -2081,6 +2733,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -2093,6 +2749,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -2105,6 +2765,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -2114,6 +2778,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -2131,6 +2799,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -2146,6 +2818,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2162,6 +2838,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2175,6 +2855,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -2187,13 +2871,13 @@
     },
     {
       "name": "okapi-bridge-1.41.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.41.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "e2d6c12e8c88219803d0f4ac515c11cae12da308f15722a324a5251802ad217a",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.41.0.tar.gz",
+      "checksum": "469afb6d135de8e655c1a332d04dd91ca791707fc4284dcbd33e2e9c099735d7",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.41.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -2201,6 +2885,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -2214,6 +2902,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -2229,6 +2921,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -2246,6 +2942,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -2259,6 +2959,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -2271,6 +2975,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -2285,6 +2993,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -2298,6 +3010,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -2310,6 +3026,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -2323,6 +3043,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -2335,6 +3059,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -2348,6 +3076,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -2357,6 +3089,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -2369,6 +3105,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -2381,6 +3121,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -2393,6 +3137,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -2402,6 +3150,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -2425,6 +3177,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2452,6 +3208,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -2464,6 +3224,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -2476,6 +3240,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -2488,6 +3256,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -2500,6 +3272,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -2512,6 +3288,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -2521,6 +3301,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -2530,6 +3314,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -2539,6 +3327,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -2551,6 +3343,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -2564,6 +3360,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -2578,6 +3378,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -2590,6 +3394,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -2603,6 +3411,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -2615,6 +3427,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -2628,6 +3444,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -2640,6 +3460,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -2652,6 +3476,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -2664,6 +3492,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -2673,6 +3505,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -2682,6 +3518,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -2694,6 +3534,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -2706,6 +3550,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -2718,6 +3566,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -2727,6 +3579,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -2739,6 +3595,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -2751,6 +3611,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -2763,6 +3627,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2775,6 +3643,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -2784,6 +3656,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -2797,6 +3673,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -2809,6 +3689,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -2821,6 +3705,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -2833,6 +3721,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -2842,6 +3734,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -2859,6 +3755,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -2874,6 +3774,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2890,6 +3794,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -2903,6 +3811,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -2915,13 +3827,13 @@
     },
     {
       "name": "okapi-bridge-1.42.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.42.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "ea4f107a907113bdbef43fc689f935291045b1cb17967b842cff7464d30aafb7",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.42.0.tar.gz",
+      "checksum": "8baac4731c803a47822477aabf16b159de70de33ef0e4fb4a6ef55377d039371",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.42.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -2929,6 +3841,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -2942,6 +3858,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -2957,6 +3877,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -2974,6 +3898,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -2987,6 +3915,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -2999,6 +3931,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -3013,6 +3949,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -3026,6 +3966,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -3038,6 +3982,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -3051,6 +3999,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -3063,6 +4015,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -3076,6 +4032,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -3085,6 +4045,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -3097,6 +4061,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -3109,6 +4077,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -3121,6 +4093,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -3130,6 +4106,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -3153,6 +4133,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -3180,6 +4164,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -3192,6 +4180,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -3204,6 +4196,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -3216,6 +4212,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -3228,6 +4228,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -3240,6 +4244,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -3249,6 +4257,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -3258,6 +4270,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -3267,6 +4283,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -3279,6 +4299,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -3292,6 +4316,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -3306,6 +4334,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -3318,6 +4350,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -3331,6 +4367,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -3343,6 +4383,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -3356,6 +4400,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -3368,6 +4416,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -3380,6 +4432,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -3392,6 +4448,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -3401,6 +4461,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -3410,6 +4474,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -3422,6 +4490,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -3434,6 +4506,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -3446,6 +4522,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -3455,6 +4535,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -3467,6 +4551,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -3479,6 +4567,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -3491,6 +4583,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -3503,6 +4599,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -3512,6 +4612,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -3525,6 +4629,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -3537,6 +4645,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -3549,6 +4661,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -3561,6 +4677,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -3570,6 +4690,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -3587,6 +4711,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -3602,6 +4730,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -3618,6 +4750,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -3631,6 +4767,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -3643,13 +4783,13 @@
     },
     {
       "name": "okapi-bridge-1.43.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.43.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "3e2d72226c499542c057f563f254943a0b1c89fb37363b62b8b01c2a81cf96dd",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.43.0.tar.gz",
+      "checksum": "610b9f57ad266622782e6d15eaec246d3813fd550a75ecb88adc195f99b58edc",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.43.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -3657,6 +4797,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -3670,6 +4814,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -3685,6 +4833,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -3702,6 +4854,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -3715,6 +4871,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -3727,6 +4887,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -3741,6 +4905,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -3754,6 +4922,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -3766,6 +4938,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -3779,6 +4955,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -3791,6 +4971,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -3804,6 +4988,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -3813,6 +5001,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -3825,6 +5017,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -3837,6 +5033,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -3849,6 +5049,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -3858,6 +5062,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -3881,6 +5089,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -3908,6 +5120,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -3920,6 +5136,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -3932,6 +5152,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -3944,6 +5168,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -3956,6 +5184,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -3968,6 +5200,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -3977,6 +5213,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -3986,6 +5226,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -3995,6 +5239,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -4007,6 +5255,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -4020,6 +5272,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -4034,6 +5290,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -4046,6 +5306,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -4059,6 +5323,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -4071,6 +5339,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -4084,6 +5356,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4096,6 +5372,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4108,6 +5388,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4120,6 +5404,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -4129,6 +5417,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -4138,6 +5430,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -4150,6 +5446,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -4162,6 +5462,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -4174,6 +5478,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -4183,6 +5491,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -4195,6 +5507,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -4207,6 +5523,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -4219,6 +5539,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -4231,6 +5555,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -4240,6 +5568,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -4253,6 +5585,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -4265,6 +5601,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -4277,6 +5617,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -4289,6 +5633,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -4298,6 +5646,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -4315,6 +5667,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -4330,6 +5686,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -4346,6 +5706,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -4359,6 +5723,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -4371,13 +5739,13 @@
     },
     {
       "name": "okapi-bridge-1.44.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.44.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "1ac29099df85da00cec505fe1759eb3c6eb37139754ca439e735d2c991f912d1",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.44.0.tar.gz",
+      "checksum": "07108fa66ed8719541d5c9afa1e8dda5cd13391caa8c89dc44873401c06161b0",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.44.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -4385,6 +5753,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -4398,6 +5770,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -4413,6 +5789,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -4430,6 +5810,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -4443,6 +5827,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -4455,6 +5843,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -4469,6 +5861,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -4482,6 +5878,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -4494,6 +5894,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -4507,6 +5911,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -4519,6 +5927,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -4532,6 +5944,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -4541,6 +5957,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -4553,6 +5973,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -4565,6 +5989,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4577,6 +6005,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -4586,6 +6018,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -4609,6 +6045,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -4636,6 +6076,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -4648,6 +6092,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -4660,6 +6108,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -4672,6 +6124,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -4684,6 +6140,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -4696,6 +6156,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -4705,6 +6169,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -4714,6 +6182,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -4723,6 +6195,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -4735,6 +6211,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -4748,6 +6228,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -4762,6 +6246,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -4774,6 +6262,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -4787,6 +6279,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -4799,6 +6295,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -4812,6 +6312,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4824,6 +6328,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4836,6 +6344,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -4848,6 +6360,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -4857,6 +6373,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -4866,6 +6386,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -4878,6 +6402,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -4890,6 +6418,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -4902,6 +6434,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -4911,6 +6447,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -4923,6 +6463,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -4935,6 +6479,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -4947,6 +6495,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -4959,6 +6511,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -4968,6 +6524,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -4981,6 +6541,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -4993,6 +6557,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -5005,6 +6573,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -5017,6 +6589,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -5026,6 +6602,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -5043,6 +6623,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -5058,6 +6642,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -5074,6 +6662,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -5087,6 +6679,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -5099,13 +6695,13 @@
     },
     {
       "name": "okapi-bridge-1.45.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.45.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "74215740f4207ce11bf03270856c931994a254a44bcb5ff82d571a02f9ed8805",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.45.0.tar.gz",
+      "checksum": "98591f46c71fcaa1d4a9306a4541e18a7e1133ebcb17f7d02b1028c332e9e0bf",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.45.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -5113,6 +6709,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -5126,6 +6726,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -5141,6 +6745,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -5158,6 +6766,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -5171,6 +6783,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -5183,6 +6799,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -5197,6 +6817,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -5210,6 +6834,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -5222,6 +6850,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -5235,6 +6867,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -5247,6 +6883,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -5260,6 +6900,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -5269,6 +6913,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -5281,6 +6929,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -5293,6 +6945,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -5305,6 +6961,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -5314,6 +6974,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -5337,6 +7001,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -5364,6 +7032,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -5376,6 +7048,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -5388,6 +7064,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -5400,6 +7080,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -5412,6 +7096,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -5424,6 +7112,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -5433,6 +7125,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -5442,6 +7138,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -5451,6 +7151,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -5463,6 +7167,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -5476,6 +7184,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -5490,6 +7202,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -5502,6 +7218,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -5515,6 +7235,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -5527,6 +7251,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -5540,6 +7268,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -5552,6 +7284,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -5564,6 +7300,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -5576,6 +7316,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -5585,6 +7329,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -5594,6 +7342,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -5606,6 +7358,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -5618,6 +7374,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -5630,6 +7390,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -5639,6 +7403,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -5651,6 +7419,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -5663,6 +7435,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -5675,6 +7451,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -5687,6 +7467,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -5696,6 +7480,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -5709,6 +7497,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -5721,6 +7513,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -5733,6 +7529,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -5745,6 +7545,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -5754,6 +7558,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -5771,6 +7579,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -5786,6 +7598,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -5802,6 +7618,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -5815,6 +7635,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -5827,13 +7651,13 @@
     },
     {
       "name": "okapi-bridge-1.46.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.46.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "a7f6c109c85fd78c89ff0bde327904fcdeb90b2f066c80aaf6b4ecfff409ab25",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.46.0.tar.gz",
+      "checksum": "e37f66a6e749eac8825faf6be83db0132f8108aa1d617d8ba2fc2b72c4d33fdc",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.46.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -5841,6 +7665,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -5854,6 +7682,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -5869,6 +7701,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -5886,6 +7722,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -5899,6 +7739,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -5911,6 +7755,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -5925,6 +7773,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -5938,6 +7790,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -5950,6 +7806,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -5963,6 +7823,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -5975,6 +7839,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -5988,6 +7856,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -5997,6 +7869,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -6009,6 +7885,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -6021,6 +7901,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -6033,6 +7917,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -6042,6 +7930,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -6065,6 +7957,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -6092,6 +7988,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -6104,6 +8004,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -6116,6 +8020,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -6128,6 +8036,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -6140,6 +8052,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -6152,6 +8068,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -6161,6 +8081,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -6170,6 +8094,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -6179,6 +8107,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -6191,6 +8123,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -6204,6 +8140,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -6218,6 +8158,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -6230,6 +8174,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -6243,6 +8191,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -6255,6 +8207,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -6268,6 +8224,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -6280,6 +8240,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -6292,6 +8256,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -6304,6 +8272,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -6313,6 +8285,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -6322,6 +8298,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -6334,6 +8314,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -6346,6 +8330,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -6358,6 +8346,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -6367,6 +8359,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -6379,6 +8375,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -6391,6 +8391,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -6403,6 +8407,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -6415,6 +8423,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -6424,6 +8436,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -6437,6 +8453,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -6449,6 +8469,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -6461,6 +8485,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -6473,6 +8501,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -6482,6 +8514,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -6499,6 +8535,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -6514,6 +8554,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -6530,6 +8574,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -6543,6 +8591,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -6555,13 +8607,13 @@
     },
     {
       "name": "okapi-bridge-1.47.0",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.47.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "99986b9cffef58e61b94b90494edcd0148a7c53d3f12fe7dc8dc2ea9b1ba2700",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.47.0.tar.gz",
+      "checksum": "46cec05ac811daaf6f5ce435c2376de33d0e7b598641668bfd4884aa2d0351bb",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -6569,6 +8621,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -6582,6 +8638,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -6597,6 +8657,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -6614,6 +8678,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -6627,6 +8695,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -6639,6 +8711,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -6653,6 +8729,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -6666,6 +8746,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -6678,6 +8762,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -6691,6 +8779,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -6703,6 +8795,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -6716,6 +8812,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -6725,6 +8825,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -6737,6 +8841,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -6749,6 +8857,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -6761,6 +8873,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -6770,6 +8886,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -6793,6 +8913,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -6820,6 +8944,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -6832,6 +8960,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -6844,6 +8976,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -6856,6 +8992,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -6868,6 +9008,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -6880,6 +9024,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -6889,6 +9037,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -6898,6 +9050,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -6907,6 +9063,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -6919,6 +9079,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -6932,6 +9096,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -6946,6 +9114,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -6958,6 +9130,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -6971,6 +9147,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -6983,6 +9163,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -6996,6 +9180,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7008,6 +9196,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7020,6 +9212,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7032,6 +9228,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -7041,6 +9241,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -7050,6 +9254,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -7062,6 +9270,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -7074,6 +9286,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -7086,6 +9302,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -7095,6 +9315,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -7107,6 +9331,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -7119,6 +9347,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -7131,6 +9363,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7143,6 +9379,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -7152,6 +9392,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -7165,6 +9409,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -7177,6 +9425,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -7189,6 +9441,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -7201,6 +9457,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -7210,6 +9470,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -7227,6 +9491,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -7242,6 +9510,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7258,6 +9530,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7271,6 +9547,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
@@ -7283,13 +9563,13 @@
     },
     {
       "name": "okapi-bridge",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "description": "Okapi filters (v1.48.0, latest)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "4e00d59ec4571ce32a1cbfd24d0fccd116d8e7cec2f2c883259c44579862a16a",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.9.0/okapi-bridge-v2.9.0-okapi1.48.0.tar.gz",
+      "checksum": "7c7c20d2b5198afa7cef382337b0b2b17812bcd1798fa6b10988b544f7e85a5f",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.10.0/okapi-bridge-v2.10.0-okapi1.48.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -7297,6 +9577,10 @@
           "id": "okf_archive",
           "name": "archive",
           "display_name": "Archive Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-archive"
           ],
@@ -7310,6 +9594,10 @@
           "id": "okf_autoxliff",
           "name": "autoxliff",
           "display_name": "XLIFF 1.2 and 2.0 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -7325,6 +9613,10 @@
           "id": "okf_doxygen",
           "name": "doxygen",
           "display_name": "Doxygen Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-doxygen-txt"
           ],
@@ -7342,6 +9634,10 @@
           "id": "okf_dtd",
           "name": "dtd",
           "display_name": "DTD Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xml+dtd"
           ],
@@ -7355,6 +9651,10 @@
           "id": "okf_epub",
           "name": "epub",
           "display_name": "EPUB Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/epub+zip"
           ],
@@ -7367,6 +9667,10 @@
           "id": "okf_html",
           "name": "html",
           "display_name": "HTML/XHTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -7381,6 +9685,10 @@
           "id": "okf_icml",
           "name": "icml",
           "display_name": "ICML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-icml+xml"
           ],
@@ -7394,6 +9702,10 @@
           "id": "okf_idml",
           "name": "idml",
           "display_name": "IDML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.adobe.indesign-idml-package"
           ],
@@ -7406,6 +9718,10 @@
           "id": "okf_html5",
           "name": "html5",
           "display_name": "HTML5-ITS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/html"
           ],
@@ -7419,6 +9735,10 @@
           "id": "okf_json",
           "name": "json",
           "display_name": "Json Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/json"
           ],
@@ -7431,6 +9751,10 @@
           "id": "okf_markdown",
           "name": "markdown",
           "display_name": "Markdown Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/markdown"
           ],
@@ -7444,6 +9768,10 @@
           "id": "okf_messageformat",
           "name": "messageformat",
           "display_name": "Message Format Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-messageformat"
           ]
@@ -7453,6 +9781,10 @@
           "id": "okf_mif",
           "name": "mif",
           "display_name": "MIF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/vnd.mif"
           ],
@@ -7465,6 +9797,10 @@
           "id": "okf_mosestext",
           "name": "mosestext",
           "display_name": "Moses Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-mosestext"
           ],
@@ -7477,6 +9813,10 @@
           "id": "okf_multiparsers",
           "name": "multiparsers",
           "display_name": "Multi-Parsers Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7489,6 +9829,10 @@
           "id": "okf_odf",
           "name": "odf",
           "display_name": "ODF-Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-odf"
           ]
@@ -7498,6 +9842,10 @@
           "id": "okf_openoffice",
           "name": "openoffice",
           "display_name": "OpenOffice.org Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-openoffice"
           ],
@@ -7521,6 +9869,10 @@
           "id": "okf_openxml",
           "name": "openxml",
           "display_name": "OpenXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7548,6 +9900,10 @@
           "id": "okf_pdf",
           "name": "pdf",
           "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/pdf"
           ],
@@ -7560,6 +9916,10 @@
           "id": "okf_pensieve",
           "name": "pensieve",
           "display_name": "Pensieve TM Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-pensieve-tm"
           ],
@@ -7572,6 +9932,10 @@
           "id": "okf_phpcontent",
           "name": "phpcontent",
           "display_name": "PHP Content Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-php"
           ],
@@ -7584,6 +9948,10 @@
           "id": "okf_plaintext",
           "name": "plaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -7596,6 +9964,10 @@
           "id": "okf_baseplaintext",
           "name": "baseplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ],
@@ -7608,6 +9980,10 @@
           "id": "okf_paraplaintext",
           "name": "paraplaintext",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -7617,6 +9993,10 @@
           "id": "okf_regexplaintext",
           "name": "regexplaintext",
           "display_name": "okf_plaintext_regex",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -7626,6 +10006,10 @@
           "id": "okf_splicedlines",
           "name": "splicedlines",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/plain"
           ]
@@ -7635,6 +10019,10 @@
           "id": "okf_po",
           "name": "po",
           "display_name": "PO Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-gettext"
           ],
@@ -7647,6 +10035,10 @@
           "id": "okf_properties",
           "name": "properties",
           "display_name": "Properties Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-properties"
           ],
@@ -7660,6 +10052,10 @@
           "id": "okf_rainbowkit",
           "name": "rainbowkit",
           "display_name": "Rainbow Translation Kit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-rainbowkit",
             "application/x-rainbowkit-package"
@@ -7674,6 +10070,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-v2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -7686,6 +10086,10 @@
           "id": "okf_regex",
           "name": "regex",
           "display_name": "Regex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-regex"
           ],
@@ -7699,6 +10103,10 @@
           "id": "okf_rtf",
           "name": "rtf",
           "display_name": "Trados-Tagged RTF Filter - READING ONLY",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/rtf"
           ],
@@ -7711,6 +10119,10 @@
           "id": "okf_sdlpackage",
           "name": "sdlpackage",
           "display_name": "SDLPPX and SDLRPX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-sdlpackage"
           ],
@@ -7724,6 +10136,10 @@
           "id": "okf_table",
           "name": "table",
           "display_name": "Table Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7736,6 +10152,10 @@
           "id": "okf_basetable",
           "name": "basetable",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7748,6 +10168,10 @@
           "id": "okf_commaseparatedvalues",
           "name": "commaseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ],
@@ -7760,6 +10184,10 @@
           "id": "okf_fixedwidthcolumns",
           "name": "fixedwidthcolumns",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -7769,6 +10197,10 @@
           "id": "okf_tabseparatedvalues",
           "name": "tabseparatedvalues",
           "display_name": "Plain Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/csv"
           ]
@@ -7778,6 +10210,10 @@
           "id": "okf_tex",
           "name": "tex",
           "display_name": "TEX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-tex-text"
           ],
@@ -7790,6 +10226,10 @@
           "id": "okf_tmx",
           "name": "tmx",
           "display_name": "TMX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-tmx+xml"
           ],
@@ -7802,6 +10242,10 @@
           "id": "okf_transifex",
           "name": "transifex",
           "display_name": "Transifex Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-transifex"
           ],
@@ -7814,6 +10258,10 @@
           "id": "okf_transtable",
           "name": "transtable",
           "display_name": "TransTable Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-transtable"
           ]
@@ -7823,6 +10271,10 @@
           "id": "okf_ts",
           "name": "ts",
           "display_name": "TS Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ts"
           ],
@@ -7835,6 +10287,10 @@
           "id": "okf_ttml",
           "name": "ttml",
           "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/ttml+xml"
           ],
@@ -7847,6 +10303,10 @@
           "id": "okf_ttx",
           "name": "ttx",
           "display_name": "TTX Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-ttx+xml"
           ],
@@ -7859,6 +10319,10 @@
           "id": "okf_txml",
           "name": "txml",
           "display_name": "TXML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7871,6 +10335,10 @@
           "id": "okf_vignette",
           "name": "vignette",
           "display_name": "Vignette Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ]
@@ -7880,6 +10348,10 @@
           "id": "okf_vtt",
           "name": "vtt",
           "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/vtt"
           ],
@@ -7893,6 +10365,10 @@
           "id": "okf_wiki",
           "name": "wiki",
           "display_name": "Wiki Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-wiki-txt"
           ],
@@ -7905,6 +10381,10 @@
           "id": "okf_wsxzpackage",
           "name": "wsxzpackage",
           "display_name": "WSXZ Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-wsxzpackage"
           ],
@@ -7917,6 +10397,10 @@
           "id": "okf_xini",
           "name": "xini",
           "display_name": "XINI Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ],
@@ -7929,6 +10413,10 @@
           "id": "okf_xinirainbowkit",
           "name": "xinirainbowkit",
           "display_name": "XINI RainbowKit Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-xini"
           ]
@@ -7938,6 +10426,10 @@
           "id": "okf_xliff",
           "name": "xliff",
           "display_name": "XLIFF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/x-xliff+xml"
           ],
@@ -7955,6 +10447,10 @@
           "id": "okf_xliff2",
           "name": "xliff2",
           "display_name": "XLIFF-2 Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "application/xliff+xml"
           ],
@@ -7970,6 +10466,10 @@
           "id": "okf_xml",
           "name": "xml",
           "display_name": "XML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7986,6 +10486,10 @@
           "id": "okf_xmlstream",
           "name": "xmlstream",
           "display_name": "XML Stream Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/xml"
           ],
@@ -7999,6 +10503,10 @@
           "id": "okf_yaml",
           "name": "yaml",
           "display_name": "YAML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
           "mime_types": [
             "text/x-yaml"
           ],
