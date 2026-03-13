@@ -3,14 +3,14 @@
   "plugins": [
     {
       "name": "okapi-0.38",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "0.38",
       "description": "Okapi filters (v0.38)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "f4ed4b86f6b0c8f8df30e7df0fb0f34deb65cd06514f1e3af5e5540089f12e5f",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi0.38.tar.gz",
+      "checksum": "22d99b76986d26cbf8256371400c2397d0b2323322de1c527e8c2fed13458a90",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi0.38.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -960,14 +960,14 @@
     },
     {
       "name": "okapi-1.39.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.39.0",
       "description": "Okapi filters (v1.39.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "3647576d2cff87886cefb25546ccd376403e9f1a355270d20fb26969442a9cce",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.39.0.tar.gz",
+      "checksum": "43427ce6cc38e227b96a2f17e84b4c21b8cd25028fc5bc8caa5bb4097a74e5c4",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.39.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -1917,14 +1917,14 @@
     },
     {
       "name": "okapi-1.40.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.40.0",
       "description": "Okapi filters (v1.40.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "244f59c22f355176c5bf26535c689641fe88522acbfeb46795f72172048eacdc",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.40.0.tar.gz",
+      "checksum": "3fc37308715cfa2f22511dc94b0a0bf77e8c6cbf419c1843fa8f39aa236ebfb9",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.40.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -2874,14 +2874,14 @@
     },
     {
       "name": "okapi-1.41.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.41.0",
       "description": "Okapi filters (v1.41.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "5f7675708acb065de18d8cdaa82e7afffad79c6cd3909744eaa252eaa3cd88d0",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.41.0.tar.gz",
+      "checksum": "f8a306b83d81e9987aea07804aa2982d038c13d17aa98a7d06320724bd0224ac",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.41.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -3831,14 +3831,14 @@
     },
     {
       "name": "okapi-1.42.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.42.0",
       "description": "Okapi filters (v1.42.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "66f454b74fd7beadce0a8bc5607360ed5039cfe048679b11bb480b29369e3938",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.42.0.tar.gz",
+      "checksum": "af0bdfcec93452847a74da7f440d2c4a5f191f262f04a16259daf39380af59c2",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.42.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -4788,14 +4788,14 @@
     },
     {
       "name": "okapi-1.43.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.43.0",
       "description": "Okapi filters (v1.43.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b9b6e8d657fd437b417dbdc40e4178b9fb09636a1835becde012b865b2506d44",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.43.0.tar.gz",
+      "checksum": "7b69dabbbbf86a12a1a7d5f6a0fd6fe0a623ff4394710840d0a124d87b84350b",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.43.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -5745,14 +5745,14 @@
     },
     {
       "name": "okapi-1.44.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.44.0",
       "description": "Okapi filters (v1.44.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "e679d64a8d2e9a86618d6a45370eb84d2b272751d12d878fed71d265af478ce8",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.44.0.tar.gz",
+      "checksum": "8784323e2e2c8b2be336ad4fb86a1fc8af75dd0f074273f5c6066b76c43ddae6",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.44.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -6702,14 +6702,14 @@
     },
     {
       "name": "okapi-1.45.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.45.0",
       "description": "Okapi filters (v1.45.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "330e220712fb2bffffefe340516764b2bcca09886ec01cefe94085cac0477d94",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.45.0.tar.gz",
+      "checksum": "dff5f93245a0334d41b43cbb00fb6f4ded7146e840a95219aebdd310b2cc8eab",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.45.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -7659,14 +7659,14 @@
     },
     {
       "name": "okapi-1.46.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.46.0",
       "description": "Okapi filters (v1.46.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "fd699b4a651160068c34b290197ffa82a391be06274061eaf2fbd18025633b95",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.46.0.tar.gz",
+      "checksum": "b0d8f2d6dac7ac841047159588925a57cc23c4bb0243acb1b1e8b601f9c6b973",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.46.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -8616,14 +8616,14 @@
     },
     {
       "name": "okapi-1.47.0",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.47.0",
       "description": "Okapi filters (v1.47.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "34ad1ba7fbaa0ae661223689d0f64293a2d5a3fedb4b733cce465e694f2fd7a9",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.47.0.tar.gz",
+      "checksum": "1d88b6c8df568ec3901731d5c2b16e16f06160e3ed641448520bb3fcda07efab",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -9573,14 +9573,14 @@
     },
     {
       "name": "okapi",
-      "version": "2.13.0",
+      "version": "2.14.0",
       "framework_version": "1.48.0",
       "description": "Okapi filters (v1.48.0, latest)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "9d26143e427f58472e4d30f04905e98116ec9439594b21bbea61093fa0e56697",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.13.0/okapi-bridge-v2.13.0-okapi1.48.0.tar.gz",
+      "checksum": "3900099d969e729448df0b596aac37cfd6f358ff7e40359781f6691525b33cd7",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.14.0/okapi-bridge-v2.14.0-okapi1.48.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
